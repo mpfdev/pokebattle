@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2fb2821a-1406-4a1d-9b04-6668f278e944/d843okx-eb13e8e4-0fa4-4fa9-968a-e0f36ff168de.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMmZiMjgyMWEtMTQwNi00YTFkLTliMDQtNjY2OGYyNzhlOTQ0XC9kODQzb2t4LWViMTNlOGU0LTBmYTQtNGZhOS05NjhhLWUwZjM2ZmYxNjhkZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.bhj0Qs9G9h8on8c0mY3t31JfbxhhtPT09e-I3RmEQ1I');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.opponent,
+.player {
+    width: 100%;
+}
+
+.battleOpponent,
+.battlePlayer {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    width: 100%;
+    justify-content: space-between;
+}
+
